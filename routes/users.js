@@ -12,5 +12,6 @@ router.get('/sign-in',usersController.signIn);
 
 //dont use a get request here, as we have declared the method as POST 
 router.post('/create',usersController.create);
+router.post('/create-session',usersController.createSession);
 
 module.exports = router;
