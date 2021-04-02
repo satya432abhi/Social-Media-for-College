@@ -1,0 +1,36 @@
+ul{ 
+    background-color: palevioletred;
+    font-size: larger;
+    display: flex;
+    // border:1px solid black;
+    flex-direction: row;
+    color: whitesmoke;
+    justify-content: space-between;
+    div{
+        width:45%;
+    }
+
+    #r-head{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+       
+      li{
+           list-style: none;
+           a{
+            color: whitesmoke;
+            text-decoration: none;
+            margin-right: 1em;
+            }
+            #sign-out{
+                color: red;
+            }
+        }
+       .log{
+           width:5em;
+           text-decoration: none;     
+           padding-top: 0.7em;
+       }
+}
+  
+}

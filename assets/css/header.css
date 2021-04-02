@@ -1,0 +1,38 @@
+ul {
+  background-color: palevioletred;
+  font-size: larger;
+  display: flex;
+  flex-direction: row;
+  color: whitesmoke;
+  justify-content: space-between;
+}
+
+ul div {
+  width: 45%;
+}
+
+ul #r-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+ul #r-head li {
+  list-style: none;
+}
+
+ul #r-head li a {
+  color: whitesmoke;
+  text-decoration: none;
+  margin-right: 1em;
+}
+
+ul #r-head li #sign-out {
+  color: red;
+}
+
+ul #r-head .log {
+  width: 5em;
+  text-decoration: none;
+  padding-top: 0.7em;
+}

@@ -1,0 +1,22 @@
+#footer {
+  background-color: grey;
+  color: honeydew;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+#footer div {
+  display: inline;
+  width: 15%;
+  text-align: center;
+  padding-top: 0.2em;
+  padding-left: 0.5em;
+  margin-bottom: 1.5em;
+}
+
+#footer div a {
+  text-decoration: none;
+  color: orange;
+}

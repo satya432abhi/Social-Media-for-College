@@ -2,6 +2,8 @@
     <head>
         <title>Profile page</title>
         <link rel="stylesheet" href="/css/layout.css">
+        <link rel="stylesheet" href="/css/header.css">
+        <link rel="stylesheet" href="/css/footer.css">
         <!-- place the style here so that styles we want in subpages overrides over the above style  -->
         <%- style %>
     </head>
@@ -9,7 +11,10 @@
 
         <%- include('_header'); %> 
 
-        <%- body %>
+        <main id="layout-main">
+            <%- body %>
+        </main>
+       
 
         <%- include('_footer'); %>
 
