@@ -7,3 +7,15 @@ body{
         height: 100%;
     }
 }
+#posts-list-container{
+    height: 20em;
+    overflow: scroll;
+    ul{
+        display: flex;
+            flex-direction: column;
+        li{
+           width: 100%;
+           
+        }
+    }
+}

@@ -8,3 +8,17 @@ body {
 body #layout-main {
   height: 100%;
 }
+
+#posts-list-container {
+  height: 20em;
+  overflow: scroll;
+}
+
+#posts-list-container ul {
+  display: flex;
+  flex-direction: column;
+}
+
+#posts-list-container ul li {
+  width: 100%;
+}
